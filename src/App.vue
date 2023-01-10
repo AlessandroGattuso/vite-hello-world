@@ -1,18 +1,18 @@
 <script>
-import Header from "./components/Header.vue";
-import Jumbotron from './components/Jumbotron.vue';
+import AppTitle from "./components/AppTitle.vue";
+import AppHero from './components/AppHero.vue';
 
 export default {
   components:{
-    Header,
-    Jumbotron
+    AppTitle,
+    AppHero
   }
 }
 </script>
 
 <template>
-  <Header></Header>
-  <Jumbotron></Jumbotron>
+  <AppTitle></AppTitle>
+  <AppHero></AppHero>
 </template>
 
 <style scoped>
