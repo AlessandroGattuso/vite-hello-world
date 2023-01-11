@@ -14,6 +14,7 @@ export default{
       <a class="navbar-brand text-light" href="#">
         <img src="/src/assets/vue.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
         {{title}}
+        <i class="fa-solid fa-cart-shopping"></i>
       </a>
     </div>
   </nav>
